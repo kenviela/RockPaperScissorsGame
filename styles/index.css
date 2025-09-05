@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:cursive
+}
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+}
+#start-text{
+  font-size: 26px;
+  text-align: center;
+  padding: 20px;
+}
+
+#result{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+#group-btn{
+  display: flex;
+  justify-content: center;
+
+
+}
+button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+#group-btn > button > img{
+  width: 100%;
+}
+
+footer{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+p{
+  height: 8vh;
+}
